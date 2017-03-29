@@ -1,4 +1,3 @@
-# TEDxYouthCAMSSite
-TEDxYouth@CAMS Website
+Club Site
 
 Temporary.
