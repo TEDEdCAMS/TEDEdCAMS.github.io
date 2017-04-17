@@ -24,6 +24,7 @@ h1,h2,h3,h4,h5,h6{
 }
 #about{
 	height:50vh;
+
 }
 #about h3{
 	font-size:32px;
@@ -87,6 +88,7 @@ h1,h2,h3,h4,h5,h6{
 }
 #aboutheading{
 	font-weight:700;
+	text-align: left;
 	text-shadow: -2px 2px 0px #0b3b4b;
 }
 .text-shadow{
@@ -120,7 +122,7 @@ h1,h2,h3,h4,h5,h6{
   padding-top:1em;
 	height:30vh;
 }
-#sponsor{
+#events{
   padding-top: 1em;
 	height:30vh;
 }
