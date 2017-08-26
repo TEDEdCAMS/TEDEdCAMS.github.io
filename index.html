@@ -22,16 +22,16 @@
                <a href="#" class="logo left" id = "nav-header"><img src="images/placeholder.png" height = "50" width = "50"></a>
                <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons red-text">menu</i></a>
                <ul class ="right hide-on-med-and-down">
-                  <li><a href="" class = "black-text">ABOUT</a></li>
-                  <li><a href="" class = "black-text">MEETINGS</a></li>
-                  <li><a href="" class = "black-text">EVENTS</a></li>
-                  <li><a href="" class = "btn red white-text">CONTACT</a></li>
+                  <li><a href="#about" class = "black-text">ABOUT</a></li>
+                  <li><a href="#speakers" class = "black-text">MEETINGS</a></li>
+                  <li><a href="#events" class = "black-text">EVENTS</a></li>
+                  <li><a href="#contact" class = "btn red white-text">CONTACT</a></li>
                </ul>
                <ul class = "side-nav" id="nav-mobile">
-                  <li><a href="" class = "black-text">MEETINGS</a></li>
-                  <li><a href="" class = "black-text">EVENTS</a></li>
-                  <li><a href="" class = "black-text">ABOUT</a></li>
-                  <li><a href="" class = "btn red white-text">CONTACT</a></li>
+                  <li><a href="#speakers" class = "black-text">MEETINGS</a></li>
+                  <li><a href="#events" class = "black-text">EVENTS</a></li>
+                  <li><a href="#about" class = "black-text">ABOUT</a></li>
+                  <li><a href="#contact" class = "btn red white-text">CONTACT</a></li>
                </ul>
             </div>
          </nav>
@@ -127,24 +127,24 @@
                     <li><a class=" text-lighten-3" href="#purchase" style = "text-decoration:none">Events</a></li>
                   </ul>
                </div>
-               <div class="col s12 m4">
+               <div class="col s12 m4" id ="contact">
                   <h4 class = "red-text">Contact</h4>
                   <div class="row">
-                     <form class="col s12" action="email.php" method="POST">
+                     <form class="col s12" action="http://formspree.io/isaacaddis21@gmail.com" method="POST">
                         <div class="row">
                            <div class="input-field col s12">
-                              <input id="email" type="email" class="validate" name = "email">
+                              <input id="email" type="email" class="validate" name = "_replyto">
                               <label for="email">Email</label>
                            </div>
                         </div>
                         <div class="row">
                            <div class="input-field col s12">
-                              <input id="text" type="text" class="validate" name = "text">
+                              <input id="text" type="text" class="validate" name = "name">
                               <label for="text">Message</label>
                            </div>
                         </div>
                         <div class="row center-align">
-                           <button class="btn waves-effect waves-light red" type="submit" name="action">Submit
+                           <button class="btn waves-effect waves-light red" type="submit" name="action" value = "Send">Submit
                              <i class="material-icons right">send</i>
                            </button>
                         </div>
@@ -178,6 +178,7 @@
       <!-- Scripts -->
       <script type="text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+      <script type="text/javascript" src = "assets/js/smooth-scroll.js"></script>
       <script type="text/javascript" src = "assets/js/main.js"></script>
    </body>
 </html>

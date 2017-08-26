@@ -1,4 +1,5 @@
       $(function() {
+        var scroll = new SmoothScroll('a[href*="#"]');
         $(".button-collapse").sideNav();
         $( "a.email" ).hover(function() {
         	$(this).addClass( "animated bounceInRight" );
